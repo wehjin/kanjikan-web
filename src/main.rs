@@ -20,7 +20,7 @@ impl StudyGroup {
 fn app() -> Html {
 	let groups = vec![
 		StudyGroup { start: 1, end: 5 },
-		StudyGroup { start: 5, end: 10 },
+		StudyGroup { start: 6, end: 10 },
 		StudyGroup { start: 11, end: 15 },
 	];
 	let groups_html = groups.into_iter().map(|group| {
